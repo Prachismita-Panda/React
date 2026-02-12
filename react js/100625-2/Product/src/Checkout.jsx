@@ -1,0 +1,9 @@
+export default function Checkout(props){
+    var product = props.product;
+    return(
+        <div>
+            <h1>{product}</h1>
+        </div>
+    );
+
+}
