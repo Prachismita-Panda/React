@@ -3,7 +3,7 @@ import { useState } from "react"
 
 function App() {
   const [count,setCount] = useState(0);
-    const [val,setVal] = useState(1);
+  const [val,setVal] = useState(1);
 
   function handleChange(e) {
     console.log(e.target.value);

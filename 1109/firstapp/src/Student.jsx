@@ -1,6 +1,4 @@
 export default function Student({roll,name}){
-   
-
     
     return(
         <>
