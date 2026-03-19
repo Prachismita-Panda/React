@@ -14,7 +14,7 @@ function App() {
     <> 
 
     <form onSubmit={handleSubmit}>
-      <input type="text"  onChange={ (e) => setTodo(e.target.value)}/>
+      <input type="text"  onChange={(e) => setTodo(e.target.value)}/>
       <button type="submit"> Add</button>
       <h1>{todos}</h1>
     </form>

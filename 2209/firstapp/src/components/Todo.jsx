@@ -3,13 +3,13 @@ import { useState } from "react";
 export default function Todo(){
 
     const [todo, setTodo ] = useState("");
-     const [todos, setTodos ] = useState([]);
+    const [todos, setTodos ] = useState([]);
 
-     function handleSubmit(e){
+    function handleSubmit(e){
         e.preventDefault();
         setTodos([...todos, todo]);
         setTodo("");
-     }
+    }
 
     return(
         <div>
@@ -20,7 +20,7 @@ export default function Todo(){
             </form>
 
             {todos.map((item) =>{
-                return <h1 key={item}>{item}</h1>;
+                return <h1 key={item}>{item}</h1>
             })}
         </div>
     );
