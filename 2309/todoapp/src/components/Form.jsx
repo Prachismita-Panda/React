@@ -5,7 +5,7 @@ export default function Form(){
       const[todos,setTodos] = useState([ ]);
 
     function handleSubmit(e){
-        e.prevenDefault();
+        e.preventDefault();
         setTodos([...todos,todo ]);
     }
     return(
