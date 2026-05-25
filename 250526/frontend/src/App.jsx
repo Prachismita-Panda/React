@@ -2,11 +2,14 @@ import StudentInfo from "./StudentInfo"
 
 
 function App() {
-  
+
+    let studentRoll = 101;
+    let studentName = "Ram";
+    let studentAge = 23;
 
   return (
     <>
-      <StudentInfo name={"Ram"} roll={101} age={23}/>
+      <StudentInfo name={studentName} roll={studentRoll} age={studentAge}/>
     </>
   )
 }
